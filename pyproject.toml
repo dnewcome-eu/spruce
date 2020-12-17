@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "spruce"
+version = "3.0.1"
+description = "Utilities updated for Python3"
+authors = ["Ivan D Vasin <nisavid@gmail.com>", "Dan Newcome <dnewcome@earnup.com>"]
+packages = [
+    { include = "collections" },
+    { include = "datetime" },
+    { include = "exc" },
+    { include = "iri" },
+    { include = "lang" },
+    { include = "types" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0a5"]
+build-backend = "poetry.core.masonry.api"
